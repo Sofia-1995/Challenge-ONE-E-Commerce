@@ -1,0 +1,34 @@
+.section-2__link-producto {
+  background-color: #2a7ae4;
+  border: 1px solid #2a7ae4;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.section-2__button-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section-2__button-overlay button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.transparent-button {
+  background-color: transparent;
+  border: none;
+}
+
+.transparent-button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.transparent-button:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
