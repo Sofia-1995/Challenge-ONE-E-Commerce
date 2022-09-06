@@ -1,0 +1,13 @@
+.section-2__title {
+  margin-bottom: 16px;
+}
+
+.section-nuevo__wrapper {
+  width: 560px;
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+.button-nuevo {
+  width: 100%;
+}
