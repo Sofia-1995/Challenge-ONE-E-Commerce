@@ -319,7 +319,6 @@ main {
 
   /* Section 2 */
   .section-2 {
-    margin-top: 32px;
     margin-bottom: 32px;
   }
 
@@ -408,6 +407,10 @@ main {
   }
 
   /* Section 1 main */
+  main {
+    padding-top: 62px;
+  }
+
   .section-1__title {
     padding-top: 78px;
   }
@@ -425,7 +428,6 @@ main {
 
   /* Section 2 */
   .section-2 {
-    margin-top: 16px;
     margin-bottom: 16px;
   }
 
