@@ -31,7 +31,9 @@
           />
           <img src="./image/search.svg" alt="" class="header__search" />
         </div>
-        <button class="header__toggle-search hidden-desktop">
+        <button
+          class="header__toggle-search header__toggle-search--right hidden-desktop"
+        >
           <img src="./image/search.svg" alt="" />
         </button>
       </div>
@@ -392,12 +394,17 @@
           <div class="section-3__form">
             <p class="section-3__texto">Hable con nosotros</p>
             <div class="input-block">
-              <input type="text" name="nombre" spellcheck="false" />
+              <input required type="text" name="nombre" spellcheck="false" />
               <span class="placeholder"> Nombre </span>
               <p id="my-form-status-nombre" class="section-3__error"></p>
             </div>
             <div class="input-block">
-              <textarea name="mensaje" spellcheck="false" rows="4"></textarea>
+              <textarea
+                required
+                name="mensaje"
+                spellcheck="false"
+                rows="4"
+              ></textarea>
               <span class="placeholder"> Mensaje </span>
               <p id="my-form-status-mensaje" class="section-3__error"></p>
             </div>

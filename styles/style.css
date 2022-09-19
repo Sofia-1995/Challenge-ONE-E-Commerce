@@ -318,10 +318,6 @@ main {
   }
 
   /* Section 2 */
-  .section-2 {
-    margin-bottom: 32px;
-  }
-
   .section-2__title {
     font-size: 22px;
   }
@@ -402,6 +398,10 @@ main {
     background-color: transparent;
   }
 
+  .header__toggle-search--right {
+    margin-left: auto;
+  }
+
   .header__button {
     padding: 12px 47px;
   }
@@ -427,10 +427,6 @@ main {
   }
 
   /* Section 2 */
-  .section-2 {
-    margin-bottom: 16px;
-  }
-
   .section-2__container {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;

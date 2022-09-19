@@ -6,7 +6,7 @@
 
 .detalle-text {
   flex-direction: column;
-  margin-left: 16px;
+  padding: 0 16px;
 }
 
 .detalle-title {
